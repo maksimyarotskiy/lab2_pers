@@ -1,0 +1,88 @@
+/* Общие стили */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #000; /* Черный фон */
+    color: #fff;            /* Белый текст */
+}
+
+/* Тёмная тема */
+body.dark-theme {
+    background-color: #333; /* Тёмный фон */
+    color: white;           /* Белый текст */
+}
+
+/* Светлая тема */
+body {
+    background-color: white;
+    color: black;
+}
+
+/* Стили для шапки */
+header {
+    text-align: center;
+    padding: 50px 0;
+    background-color: #FFD700;
+}
+
+header h1 {
+    font-size: 3em;
+    margin: 0;
+}
+
+header p {
+    font-size: 1.2em;
+    margin: 10px 0;
+}
+
+nav a {
+    margin: 0 15px;
+    color: #000;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #fff;
+}
+
+/* Стили для секций */
+section {
+    padding: 50px;
+    border-bottom: 1px solid #333;
+}
+
+section h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+/* Стили для кнопки */
+button {
+    padding: 10px;
+    background-color: #007bff;
+    border: none;
+    color: white;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Стили для слайдера */
+.slider {
+    display: flex;
+    align-items: center;
+}
+
+.slider img {
+    width: 600px;
+    height: 400px;
+}
+
+.slider button {
+    margin: 0 10px;
+}
